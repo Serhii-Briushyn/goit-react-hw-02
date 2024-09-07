@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 8px;
+  width: 86px;
+  height: 40px;
+  background: rgb(255, 69, 0);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+  &:hover {
+    background-color: rgb(220, 50, 0);
+  }
+  &:active {
+    transform: scale(0.95);
+  }
+}
